@@ -1,0 +1,13 @@
+*.zip
+.idea
+*_id.txt
+
+
+### Terraform ###
+plugin-cache/
+# Compiled files
+*.tfstate
+*.tfplan
+*.tfstate.backup
+.terraform
+.terraform/*
