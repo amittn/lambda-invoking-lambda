@@ -1,4 +1,4 @@
-# s3-trigger-lambda
+# lambda-invoking-lambda
 This project demonstrates the mechanism of invoking one lambda from another lambda.
 
 # Usage
