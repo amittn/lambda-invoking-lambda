@@ -17,5 +17,9 @@ Run the following commands to create the infrastructure.
  `terraform apply`
  
  `terraform destroy`
+
+To run the lambda chain just use the following command and then check lambda logs for both the lambdas in cloudwatch
+
+ `aws lambda invoke --function-name first_lambda out --log-type Tail`
  
  
